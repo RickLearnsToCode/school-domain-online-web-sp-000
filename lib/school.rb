@@ -27,6 +27,16 @@ def sort
     output_hash[element[0]] = element[1].sort
   end
   output_hash
+
+  #Solution from Flatiron:
+  #def sort
+  #sorted = {}
+  #roster.each do |grade, students|
+  #  sorted[grade] = students.sorted
+  #  end
+  #sorted
+  #end
+  
 end
 
 
